@@ -20,7 +20,7 @@ USEGROWL=false
 STICKY=false
 
 
-#### Do not edit anything below this line! ####
+##### Do not edit anything below this line! #####
 NOTIFIER=`which growlnotify`
 SVN=`which svn`
 E_BADARGS=65
