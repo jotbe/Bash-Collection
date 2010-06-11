@@ -8,6 +8,7 @@
 #
 # Author: Jan Beilicke <j.beilicke@stroeer-interactive.de>
 # Created: 2010-06-10
+# Last modified: 2010-06-11
 #
 # -------------------------------------------------------------------
 #
