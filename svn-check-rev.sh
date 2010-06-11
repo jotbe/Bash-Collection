@@ -11,18 +11,22 @@
 #
 # -------------------------------------------------------------------
 #
-# Usage: svn-check-rev.sh /path/to/svn/repository
+# Usage: svn-check-rev.sh [-h] [-n] [-s] /path/to/svn/working/copy/
+# Parameters:
+# -h          Display help
+# -n          Use Growl to notify about updates (requires 'growlnotify' in \$PATH)
+# -s          Sticky growl notification (automatically enables Growl)
 #
 
 ### General ###
 PATH="/usr/bin:/opt/local/bin:/usr/local/bin:${PATH}"
+NOTIFIER=`which growlnotify`
+SVN=`which svn`
+
+##### Do not edit anything below this line! #####
 USEGROWL=false
 STICKY=false
 
-
-##### Do not edit anything below this line! #####
-NOTIFIER=`which growlnotify`
-SVN=`which svn`
 E_BADARGS=65
 
 usage() {
