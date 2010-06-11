@@ -102,10 +102,9 @@ DIFFREV=$((REMOTEREV - LOCALREV))
 if [[ "$DIFFREV" -gt 0 ]]; then
   if [[ "$USEGROWL" = true ]] && [[ -e "$NOTIFIER" ]]; then
     "$NOTIFIER" "$SETSTICKY" -d "$SVNURL" -m "${SVNURL##*/}: Updates available! Remote rev. is $REMOTEREV (local rev. $LOCALREV)"
-  else
-    echo
-    echo "Updates available!"
   fi
+  echo
+  echo "Updates available!"
 else
   echo
   echo "No updates available."
