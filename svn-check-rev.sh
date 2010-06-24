@@ -6,9 +6,9 @@
 # 
 # Take care to edit the variables as neccessary!
 #
-# Author: Jan Beilicke <j.beilicke@stroeer-interactive.de>
+# Author: Jan Beilicke <dev@jotbe-fx.de>
 # Created: 2010-06-10
-# Last modified: 2010-06-11
+# Last modified: 2010-06-24
 #
 # -------------------------------------------------------------------
 #
