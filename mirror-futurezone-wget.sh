@@ -5,6 +5,11 @@
 # Created: 2010-06-23
 # Last modified: 2010-06-24
 #
+# Known issues/Todos:
+# - Define output dir. Currently, the directories of domains 
+#   are created in the script directory.
+# - Fix excludes. login.orf.at and others are still processed
+#
 
 BASEURL='http://futurezone.orf.at/stories'
 INCLUDEDOMAINS='static.orf.at,futurezone.orf.at'
