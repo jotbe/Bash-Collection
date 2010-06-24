@@ -19,7 +19,8 @@ function getMaxId() {
 }
 
 # This should be 0 after finishing the tests to fetch everything ;)
-START=1651500
+#START=1651500
+START=0
 END=`getMaxId "$BASEURL"`
 
 COUNT=0
