@@ -89,8 +89,8 @@ SVNWCPATH="${!#}"
 [[ "$STICKY" = true ]] && SETSTICKY="-s"
 
 SVNURL=`$SVN info $SVNWCPATH | awk '/URL:/ {print $2}'`
-LOCALREV=`$SVN info $SVNWCPATH | awk '/Revision:/ {print $2}'`
-REMOTEREV=`$SVN info -rHEAD $SVNWCPATH | awk '/Revision:/ {print $2}'`
+LOCALREV=`$SVN info $SVNWCPATH | awk '/Last Changed Rev:/ {print $4}'`
+REMOTEREV=`$SVN info -rHEAD $SVNWCPATH | awk '/Last Changed Rev:/ {print $4}'`
 
 echo
 echo "URL: $SVNURL"
