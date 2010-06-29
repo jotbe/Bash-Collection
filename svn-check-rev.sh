@@ -8,7 +8,7 @@
 #
 # Author: Jan Beilicke <dev@jotbe-fx.de>
 # Created: 2010-06-10
-# Last modified: 2010-06-24
+# Last modified: 2010-06-28
 #
 # -------------------------------------------------------------------
 #
